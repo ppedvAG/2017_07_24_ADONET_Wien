@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HalloDatenbank", "HalloDatenbank\HalloDatenbank.csproj", "{17F117D1-606F-4E61-97EA-893DA0B0D8AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbIndependent", "DbIndependent\DbIndependent.csproj", "{7591322E-52E9-42E2-AE69-2B871071FF0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbIndependent", "DbIndependent\DbIndependent.csproj", "{7591322E-52E9-42E2-AE69-2B871071FF0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloTransactions", "HalloTransactions\HalloTransactions.csproj", "{C2DD3EC6-DD6D-4A49-AEF0-DC3CD967F6D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7591322E-52E9-42E2-AE69-2B871071FF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7591322E-52E9-42E2-AE69-2B871071FF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7591322E-52E9-42E2-AE69-2B871071FF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DD3EC6-DD6D-4A49-AEF0-DC3CD967F6D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DD3EC6-DD6D-4A49-AEF0-DC3CD967F6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DD3EC6-DD6D-4A49-AEF0-DC3CD967F6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DD3EC6-DD6D-4A49-AEF0-DC3CD967F6D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
