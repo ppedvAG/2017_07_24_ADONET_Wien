@@ -1,0 +1,60 @@
+﻿<Window x:Class="HalloLinq.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HalloLinq"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <WrapPanel Grid.Row="0"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Margin="8">
+            <WrapPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="4" />
+                </Style>
+            </WrapPanel.Resources>
+            
+            <Button Content="Alle" Click="AlleButton_Click" />
+            <Button Content="Restriction" Click="RestrictionButton_Click" />
+            <Button Content="Ordering" Click="OrderingButton_Click" />
+            <Button Content="Pojection" Click="ProjectionButton_Click" />
+            <Button Content="Grouping" Click="GroupingButton_Click" />
+            <Button Content="Partitioning" Click="PartitioningButton_Click" />
+            <Button Content="Element Operators" Click="ElementOperatorsButton_Click" />
+            <Button Content="Quantifying" Click="QuanitfyingButton_Click" />
+            <Button Content="Aggregating" Click="AggregatingButton_Click" />
+            <Button Content="Inner Join" Click="InnerJoinButton_Click" />
+            <Button Content="Group Join" Click="GroupJoinButton_Click" />
+            <Button Content="Cross Join" Click="CrossJoinButton_Click" />
+        </WrapPanel>
+
+        <DataGrid Grid.Row="1"
+                  Grid.Column="0"
+                  Name="dataGrid" />
+
+        <StackPanel Grid.Row="1"
+                    Grid.Column="1"
+                    Margin="8">
+            <TextBlock Name="elementOperatorsTextBlock" />
+            <TextBlock Name="quantifyingAllTextBlock" />
+            <TextBlock Name="quantifyingAnyTextBlock" />
+            <TextBlock Name="countTextBlock" />
+            <TextBlock Name="minTextBlock" />
+            <TextBlock Name="maxTextBlock" />
+            <TextBlock Name="averageTextBlock" />
+            <TextBlock Name="sumTextBlock" />
+        </StackPanel>
+    </Grid>
+</Window>
