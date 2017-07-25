@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesInPraxis", "Delega
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloLinq", "HalloLinq\HalloLinq.csproj", "{23D280DC-A81C-4CE9-9B37-F94C7C366E55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByByDataSet", "ByByDataSet\ByByDataSet.csproj", "{0DB5201D-9F30-43B1-8B6F-B10220769E61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{23D280DC-A81C-4CE9-9B37-F94C7C366E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23D280DC-A81C-4CE9-9B37-F94C7C366E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23D280DC-A81C-4CE9-9B37-F94C7C366E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB5201D-9F30-43B1-8B6F-B10220769E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB5201D-9F30-43B1-8B6F-B10220769E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB5201D-9F30-43B1-8B6F-B10220769E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB5201D-9F30-43B1-8B6F-B10220769E61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
